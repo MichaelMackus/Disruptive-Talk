@@ -1,4 +1,4 @@
-### Disruptive Talk ###
+=== Disruptive Talk ===
 Contributors: disruptive.io, michaelmackus
 Donate link: http://disruptive.io/
 Tags: widget, plugin, social, audio, free, phono, tropo
@@ -9,7 +9,7 @@ Stable tag: 1.0
 Disruptive talk phono widget. Use phono to allow your wordpress users to call a phone 
 	number right from your site, for free!
 
-## Description ##
+== Description ==
 
 Disruptive talk phono widget. Use phono to allow your wordpress users to call a 
 	phone number right from your site, for free!
@@ -23,7 +23,7 @@ The phono widget can call any landline phone number, sip address, or Tropo appli
 For more information check out 
 	http://disruptive.io/disruptivetalk-proactive-phono-wordpress-plugin-for-tropo/
 
-## Installation ##
+== Installation ==
 
 1. Download the Plugin
 2. Install the Plugin by copying it to your wp-content/plugins directory
@@ -36,31 +36,31 @@ For more information check out
 Detailed installation instructions at
 	http://disruptive.io/disruptivetalk-download-and-installation/
 
-## Frequently Asked Questions ##
+== Frequently Asked Questions ==
 
-# Does the browser phone require flash? #
+= Does the browser phone require flash? =
 
 The browser phone does require flash to use your computer's mic. We are working
 	on a version with a "call me back" option, so users without flash (for instance
 	users on an iPhone or Android device) will still be able to use the phone.
 
-# Why doesn't the widget work in Microsoft's Internet Explorer? #
+= Why doesn't the widget work in Microsoft's Internet Explorer? =
 
 There is a bug in the widget breaking it in Internet Explorer. We are working on
 	a fix for this.
 
-## Screenshots ##
+== Screenshots ==
 
 1. Disruptive Talk proactive widget.
 2. Disruptive Talk proactive widget - in a call.
 3. Disruptive Talk embedded widget.
 
-## Changelog ##
+== Changelog ==
 
-# 1.0 #
+= 1.0 =
 * Initial commit.
 
-## Upgrade Notice ##
+== Upgrade Notice ==
 
-# 1.0 #
+= 1.0 =
 * Initial commit.

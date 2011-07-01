@@ -29,7 +29,7 @@ window.onload = function() {
    curIframeHeight = iframe.contentWindow.document.getElementById('phono').scrollHeight;
   }
   if (curIframeHeight) {
-   curIframeHeight = curIframeHeight + 10
+   curIframeHeight = curIframeHeight + 10;
    iframe.height = curIframeHeight;
    iframeHeight = curIframeHeight;
   }

@@ -44,11 +44,6 @@ The browser phone does require flash to use your computer's mic. We are working
 	on a version with a "call me back" option, so users without flash (for instance
 	users on an iPhone or Android device) will still be able to use the phone.
 
-= Why doesn't the widget work in Microsoft's Internet Explorer? =
-
-There is a bug in the widget breaking it in Internet Explorer. We are working on
-	a fix for this.
-
 == Screenshots ==
 
 1. Disruptive Talk proactive widget.
@@ -56,6 +51,9 @@ There is a bug in the widget breaking it in Internet Explorer. We are working on
 3. Disruptive Talk embedded widget.
 
 == Changelog ==
+
+= 1.1 =
+* Fixed bug in IE.
 
 = 1.0 =
 * Initial commit.

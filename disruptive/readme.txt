@@ -4,7 +4,7 @@ Donate link: http://disruptive.io/
 Tags: widget, plugin, social, audio, free, phono, tropo
 Requires at least: 3.0.x
 Tested up to: 3.1.3
-Stable tag: 1.0
+Stable tag: 1.2
 
 Disruptive talk phono widget. Use phono to allow your wordpress users to call a phone 
 	number right from your site, for free!

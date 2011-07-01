@@ -3,7 +3,7 @@
 Plugin Name: Disruptive Talk
 Plugin URI: http://disruptivetalk.com/
 Description: Disruptive Phono Widget. Browser phone for your wordpress site.
-Version: 1.1.0
+Version: 1.2.0
 Author: Disruptive Technologies
 Author URI: http://disruptive.io/
 */

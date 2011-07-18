@@ -24,8 +24,8 @@
 		}, 1000);
 	};
 </script>-->
-<script type="text/javascript" src="http://acd.disruptive.io/js/jquery-1.4.2.min.js"></script>
-<script type="text/javascript" src="/wp-content/plugins/dreamacd/js/jqModal.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo plugins_url('js/jqModal.js', __FILE__); ?>"></script>
 <script type="text/javascript">
 $.noConflict();
 jQuery(document).ready(function($) {
@@ -78,7 +78,7 @@ jQuery(document).ready(function($) {
 	display: none;
 }
 </style>
-<link rel="stylesheet" type="text/css" href="/wp-content/plugins/dreamacd/css/jqModal.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo plugins_url('css/jqModal.css', __FILE__); ?>" />
 
 <div class="jqmWindow jqmID1" id="dreamacd-dialog" style="">
 	<a href="#" class="jqmClose">X</a>

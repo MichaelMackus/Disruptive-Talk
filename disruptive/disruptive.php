@@ -56,6 +56,9 @@ function dreamacd_phono_widget() {
 	}
 }
 
+/**
+ * Function to force IE in IE 8 ode (phono requires IE 8 standards).
+ */
 function dreamacd_header() {
 	if ( !get_option('dreamacd_admin') || current_user_can('manage_options') ) {
 		include('phono_header.php');
@@ -73,7 +76,7 @@ wp_register_sidebar_widget(
 	)
 );
 
-//add_action('wp_head', 'dreamacd_header');
+add_action('wp_head', 'dreamacd_header');
 
 // Admin area
 

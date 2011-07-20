@@ -39,5 +39,7 @@ window.onload = function() {
 <iframe
 	src="<?php echo plugins_url('acd.php', __FILE__); ?>?phono_key=<?php echo urlencode(get_option('dreamacd_phono_key')); ?>&phono_address=<?php echo urlencode(get_option('dreamacd_phono_address')); ?>&phono_text=<?php echo urlencode(get_option('dreamacd_phono_text')); ?>&phono_dialpad=<?php echo urlencode(get_option('dreamacd_phono_dialpad')); ?>" id="phono-frame" 
 	height="0" 
-	scrolling="no">
+	scrolling="no"
+	allowTransparency="allowTransparency"
+	frameborder=0>
 </iframe>

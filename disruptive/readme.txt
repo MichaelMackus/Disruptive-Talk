@@ -4,7 +4,7 @@ Donate link: http://disruptive.io/
 Tags: widget, plugin, social, audio, free, phono, tropo
 Requires at least: 3.0.x
 Tested up to: 3.2.3
-Stable tag: 1.4
+Stable tag: 1.4.1
 
 Disruptive talk phono widget. Use phono to allow your wordpress users to call a phone 
 	number right from your site, for free!
@@ -32,6 +32,8 @@ For more information check out
 5. Add the widget to the page you want it to show up on by going to 
 	Appearance -> Widgets and dragging the Widget to the sidebar or footer area 
 	where you want it to show up at.
+6. Add the following code to your theme's header.php file: (Internet Explorer fix)
+	<meta http-equiv="x-ua-compatible" content="IE=8">
 
 Detailed installation instructions at
 	http://disruptive.io/disruptivetalk-download-and-installation/
@@ -44,14 +46,6 @@ The browser phone does require flash to use your computer's mic. We are working
 	on a version with a "call me back" option, so users without flash (for instance
 	users on an iPhone or Android device) will still be able to use the phone.
 
-= Why does my theme look different after installing your plugin? =
-
-This might happen if your theme does not support the IE 8 browser. Since Phono 
-	currently requires IE 8 standards mode to be enabled, this forces your 
-	theme into IE 8 mode on compatible browsers. This shouldn't affect much,
-	if any, themes as most themes support IE 8 out of the box. We are working
-	on fixing this problem.
-
 == Screenshots ==
 
 1. Disruptive Talk proactive widget.
@@ -59,6 +53,10 @@ This might happen if your theme does not support the IE 8 browser. Since Phono
 3. Disruptive Talk embedded widget.
 
 == Changelog ==
+
+= 1.4.1 =
+* Bug in IE in some themes. You must now manually add the meta tag to your theme's header.php file.
+* Detects if a user is on a mobile device. If so, the plugin displays the phone number instead of the phono widget. In a future version, we are planning mobile callback.
 
 = 1.4 =
 * Fixed bug in IE (again). Seems like Phono requires IE 8 standards mode.
@@ -73,6 +71,10 @@ This might happen if your theme does not support the IE 8 browser. Since Phono
 * Initial commit.
 
 == Upgrade Notice ==
+
+= 1.4.1 =
+* Add the following code to your theme's header.php file: (Internet Explorer fix)
+	<meta http-equiv="x-ua-compatible" content="IE=8">
 
 = 1.4 =
 * Fixed bug in IE. The plugin now forces your theme into IE 8 standards 

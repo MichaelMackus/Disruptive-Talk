@@ -19,6 +19,7 @@
 ?>
 <html>
 <head>
+ <meta http-equiv="x-ua-compatible" content="IE=8">
  <link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/themes/ui-darkness/jquery-ui.css"/>
  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
  <script type="text/javascript" src="http://s.phono.com/releases/0.2/jquery.phono.js"></script>
@@ -30,6 +31,12 @@
 			min-height: 120px;
 		}
 	</style>
+<?php 
+// Check for a mobile device
+include('Mobile_Detect.php');
+$detect = new Mobile_Detect;
+if (!$detect->isMobile()):
+?>
  <script type="text/javascript">
  $(document).ready(function() {
  
@@ -45,6 +52,13 @@
   
  });
  </script>
+<?php else: ?>
+ <script type="text/javascript" charset="utf-8">
+     $(document).ready(function() {
+     	$('#phono').html("<?php echo $_GET['phono_address']; ?>");
+     });
+ </script>
+<?php endif; ?>
 
 <div id="phono"></div>
 
